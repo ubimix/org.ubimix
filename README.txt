@@ -27,6 +27,22 @@ this project. How to re-define this parameter - see below.
 
 > mvn eclipse:clean eclipse:eclipse
 
+This command builds all required Eclipse configuration files. 
+
+== How to import projects into Eclipse ? ==
+
+To import projects in the Eclipse workspace you need to perform the following
+actions:
+* "File" > "Import..."
+* Select "General" > "Existing Projects into Workspace"
+* Click the "Next >" button
+* In the field "Select root directory:" put the full path to the "./projects"
+  sub-folder. You can use a dialog box activated by the "Browse..." button and 
+  click "Validate". 
+* Select all projects and click the "Finish" button. 
+  Note: You should uncheck the "Copy projects into workspace" option to avoid 
+  duplication of projects on your disk. 
+
 == How to re-define the project checkout and build directory? ==
 
 All projects are checked out and compiled in the folder defined by 
