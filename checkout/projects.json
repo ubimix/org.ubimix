@@ -17,8 +17,8 @@
 				"name" : "org.ubimix.poms.bundle"
 			},
 			{
-				"url" : "https://github.com/ubimix/org.ubimix.scrapper.git",
-				"name" : "org.ubimix.scrapper"
+				"url" : "https://github.com/ubimix/org.ubimix.scraper.git",
+				"name" : "org.ubimix.scraper"
 			},
 			{
 				"url" : "https://github.com/ubimix/org.ubimix.commons.adapters.git",
@@ -129,23 +129,23 @@
 				"name" : "org.ubimix.libs.stringtemplate"
 			},
 			{
-				"url" : "https://github.com/ubimix/org.ubimix.scrapper.app.git",
-				"name" : "org.ubimix.scrapper.app"
+				"url" : "https://github.com/ubimix/org.ubimix.scraper.app.git",
+				"name" : "org.ubimix.scraper.app"
 			},
 			{
-				"url" : "https://github.com/ubimix/org.ubimix.scrapper.pageset.git",
-				"name" : "org.ubimix.scrapper.pageset"
+				"url" : "https://github.com/ubimix/org.ubimix.scraper.pageset.git",
+				"name" : "org.ubimix.scraper.pageset"
 			},
 			{
-				"url" : "https://github.com/ubimix/org.ubimix.scrapper.protocol.git",
-				"name" : "org.ubimix.scrapper.protocol"
+				"url" : "https://github.com/ubimix/org.ubimix.scraper.protocol.git",
+				"name" : "org.ubimix.scraper.protocol"
 			},
 			{
-				"url" : "https://github.com/ubimix/org.ubimix.scrapper.resources.git",
-				"name" : "org.ubimix.scrapper.resources"
+				"url" : "https://github.com/ubimix/org.ubimix.scraper.resources.git",
+				"name" : "org.ubimix.scraper.resources"
 			},
 			{
-				"url" : "https://github.com/ubimix/org.ubimix.scrapper.transformer.git",
-				"name" : "org.ubimix.scrapper.transformer"
+				"url" : "https://github.com/ubimix/org.ubimix.scraper.transformer.git",
+				"name" : "org.ubimix.scraper.transformer"
 			} ]
 }

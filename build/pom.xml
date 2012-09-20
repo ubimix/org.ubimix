@@ -9,12 +9,12 @@
     <version>1.2.1</version>
     <packaging>pom</packaging>
     <properties>
-        <workspaceDir>${project.basedir}/../../projects</workspaceDir>
+        <workspaceDir>../../projects</workspaceDir>
     </properties>
     <modules>
         <module>${workspaceDir}/org.ubimix.libs</module>
         <module>${workspaceDir}/org.ubimix.commons</module>
-        <module>${workspaceDir}/org.ubimix.scrapper</module>
+        <module>${workspaceDir}/org.ubimix.scraper</module>
         <module>${workspaceDir}/org.ubimix.ebook</module>
     </modules>
 </project>

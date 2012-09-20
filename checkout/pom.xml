@@ -9,7 +9,7 @@
     <version>1.2.1</version>
     <packaging>pom</packaging>
     <properties>
-        <workspaceDir>${project.basedir}/../../projects</workspaceDir>
+        <workspaceDir>../../projects</workspaceDir>
         <projectListFile>${project.basedir}/projects.json</projectListFile>
     </properties>
     <build>
@@ -60,8 +60,15 @@
                                     }
                                 }
                                 
-                                String workspaceDirName = project.properties.workspaceDir; 
-                                File workspaceDir = new File(workspaceDirName).getCanonicalFile();
+                                String workspaceDirName = project.properties.workspaceDir;
+                                workspaceDirName = workspaceDirName.replace('\\', '/');
+                                File workspaceDir;
+                                if (workspaceDirName.startsWith("/")) {
+                                    workspaceDir = new File(workspaceDirName);
+                                } else {
+                                    workspaceDir = new File(project.basedir, workspaceDirName);
+                                }
+                                workspaceDir = workspaceDir.getCanonicalFile();
  
                                 String projectListFile = project.properties.projectListFile;
                                 File file = new File(projectListFile);
