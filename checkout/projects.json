@@ -32,10 +32,14 @@
 				"url" : "https://github.com/ubimix/org.ubimix.commons.fs.git",
 				"name" : "org.ubimix.commons.fs"
 			},
-			{
-				"url" : "https://github.com/ubimix/org.ubimix.commons.geo.git",
-				"name" : "org.ubimix.commons.geo"
-			},
+            {
+                "url" : "https://github.com/ubimix/org.ubimix.commons.geo.git",
+                "name" : "org.ubimix.commons.geo"
+            },
+            {
+                "url" : "https://github.com/ubimix/org.ubimix.commons.graph.git",
+                "name" : "org.ubimix.commons.graph"
+            },
 			{
 				"url" : "https://github.com/ubimix/org.ubimix.commons.iterator.git",
 				"name" : "org.ubimix.commons.iterator"
@@ -147,5 +151,32 @@
 			{
 				"url" : "https://github.com/ubimix/org.ubimix.scraper.transformer.git",
 				"name" : "org.ubimix.scraper.transformer"
-			} ]
+			},
+			
+			
+            {
+                "url" : "https://github.com/ubimix/org.ubimix.commons.parser.git",
+                "name" : "org.ubimix.commons.parser"
+            },
+            {
+                "url" : "https://github.com/ubimix/org.ubimix.commons.parser.css.git",
+                "name" : "org.ubimix.commons.parser.css"
+            },
+            {
+                "url" : "https://github.com/ubimix/org.ubimix.commons.parser.html.git",
+                "name" : "org.ubimix.commons.parser.html"
+            },
+            {
+                "url" : "https://github.com/ubimix/org.ubimix.commons.parser.json.git",
+                "name" : "org.ubimix.commons.parser.json"
+            },
+            {
+                "url" : "https://github.com/ubimix/org.ubimix.commons.parser.xml.git",
+                "name" : "org.ubimix.commons.parser.xml"
+            },
+            {
+                "url" : "https://github.com/ubimix/org.ubimix.commons.model.git",
+                "name" : "org.ubimix.commons.model"
+            }
+     ]
 }

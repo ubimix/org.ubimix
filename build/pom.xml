@@ -14,7 +14,14 @@
     <modules>
         <module>${workspaceDir}/org.ubimix.libs</module>
         <module>${workspaceDir}/org.ubimix.commons</module>
-        <module>${workspaceDir}/org.ubimix.scraper</module>
-        <module>${workspaceDir}/org.ubimix.ebook</module>
+         <module>${workspaceDir}/org.ubimix.scraper</module>
+<!--         <module>${workspaceDir}/org.ubimix.ebook</module>
+-->
+        <module>${workspaceDir}/org.ubimix.commons.parser</module>
+        <module>${workspaceDir}/org.ubimix.commons.parser.css</module>
+        <module>${workspaceDir}/org.ubimix.commons.parser.html</module>
+        <module>${workspaceDir}/org.ubimix.commons.parser.json</module>
+        <module>${workspaceDir}/org.ubimix.commons.parser.xml</module>
+        <module>${workspaceDir}/org.ubimix.commons.model</module>
     </modules>
 </project>
