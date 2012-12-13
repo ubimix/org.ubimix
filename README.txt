@@ -5,29 +5,49 @@ from remote repositories, build and install them. This configuration
 is used also to prepare Eclipse development environment.
 
 == How to checkout all projects? ==
+
+> cd checkout
+> mvn initialize
+
+These operations will checkout all projects from remote repositories and store 
+them in a local folder. This operation creates a temporary POM file containing 
+references to all loaded modules.
+By default this configuration loads all projects in the "../org.ubimix.projects" 
+folder. This value could be replaced using the "workspaceDir" variable:
+
+> cd checkout
+> mvn initialize -DworkspaceDir=<PATH_TO_PROJECT_DIR>
+
+List of all projects is loaded from the "checkout/projects.json" file.
+To re-define the list of projects to load you can use the "projectListFile"
+variable:
+
+> cd checkout
+> mvn initialize -DprojectListFile=<PATH>/projects.json
+
+An example of project list re-definition and the resulting workspace directory:
+
+> cd checkout
+> mvn initialize -DworkspaceDir=../../myworkspace -DprojectListFile=../../myProjects.json
  
-> mvn initialize -P checkout
-
-All projects to checkout with their repository URLs are loaded from the file 
-defined by the "projectListFile" variable. By default it is the 
-"./projects.json" file. To re-define the list of projects to checkout:
-> mvn initialize -P checkout -DprojectListFile=myfile.json
-
-By default this task checks out all projects in the "./projects" subfolder in 
-this project. How to re-define this parameter - see below. 
 
 == How to compile and install all projects? ==
 
+1) Go to the workspace directory where all projects were checked out.
+2) Launch the maven build configuration:
+
+Clean/install: 
+ 
+> cd ../org.ubimix.projects
 > mvn clean install
 
-By default this task seek all projects to build in the "./projects" subfolder in 
-this project. How to re-define this parameter - see below. 
+== How to create/update Eclipse configuration? ==
 
-== How to prepare Eclipse development environment? ==
+1) Go to the workspace directory where all projects were checked out.
+2) Launch the maven build configuration:
 
+> cd ../org.ubimix.projects
 > mvn eclipse:clean eclipse:eclipse
-
-This command builds all required Eclipse configuration files. 
 
 == How to import projects into Eclipse ? ==
 

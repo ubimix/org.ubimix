@@ -1,24 +1,8 @@
 {
 	"projects" : [
 			{
-				"url" : "https://github.com/ubimix/org.ubimix.commons.git",
-				"name" : "org.ubimix.commons"
-			},
-			{
-				"url" : "https://github.com/ubimix/org.ubimix.ebook.git",
-				"name" : "org.ubimix.ebook"
-			},
-			{
-				"url" : "https://github.com/ubimix/org.ubimix.libs.git",
-				"name" : "org.ubimix.libs"
-			},
-			{
 				"url" : "https://github.com/ubimix/org.ubimix.poms.bundle.git",
 				"name" : "org.ubimix.poms.bundle"
-			},
-			{
-				"url" : "https://github.com/ubimix/org.ubimix.scraper.git",
-				"name" : "org.ubimix.scraper"
 			},
 			{
 				"url" : "https://github.com/ubimix/org.ubimix.commons.adapters.git",
@@ -27,10 +11,6 @@
 			{
 				"url" : "https://github.com/ubimix/org.ubimix.commons.events.git",
 				"name" : "org.ubimix.commons.events"
-			},
-			{
-				"url" : "https://github.com/ubimix/org.ubimix.commons.fs.git",
-				"name" : "org.ubimix.commons.fs"
 			},
             {
                 "url" : "https://github.com/ubimix/org.ubimix.commons.geo.git",
@@ -45,24 +25,8 @@
 				"name" : "org.ubimix.commons.iterator"
 			},
 			{
-				"url" : "https://github.com/ubimix/org.ubimix.commons.json.git",
-				"name" : "org.ubimix.commons.json"
-			},
-			{
-				"url" : "https://github.com/ubimix/org.ubimix.commons.json.rpc.servlet.git",
-				"name" : "org.ubimix.commons.json.rpc.servlet"
-			},
-			{
 				"url" : "https://github.com/ubimix/org.ubimix.commons.osgi.git",
 				"name" : "org.ubimix.commons.osgi"
-			},
-			{
-				"url" : "https://github.com/ubimix/org.ubimix.commons.rpc.git",
-				"name" : "org.ubimix.commons.rpc"
-			},
-			{
-				"url" : "https://github.com/ubimix/org.ubimix.commons.search.git",
-				"name" : "org.ubimix.commons.search"
 			},
 			{
 				"url" : "https://github.com/ubimix/org.ubimix.commons.strings.git",
@@ -93,24 +57,8 @@
 				"name" : "org.ubimix.commons.utils"
 			},
 			{
-				"url" : "https://github.com/ubimix/org.ubimix.commons.vaadin.git",
-				"name" : "org.ubimix.commons.vaadin"
-			},
-			{
-				"url" : "https://github.com/ubimix/org.ubimix.commons.xml.git",
-				"name" : "org.ubimix.commons.xml"
-			},
-			{
 				"url" : "https://github.com/ubimix/org.ubimix.ebook.api.git",
 				"name" : "org.ubimix.ebook.api"
-			},
-			{
-				"url" : "https://github.com/ubimix/org.ubimix.ebook.app.git",
-				"name" : "org.ubimix.ebook.app"
-			},
-			{
-				"url" : "https://github.com/ubimix/org.ubimix.ebook.generator.git",
-				"name" : "org.ubimix.ebook.generator"
 			},
 			{
 				"url" : "https://github.com/ubimix/org.ubimix.libs.freemarker.git",
@@ -125,32 +73,12 @@
 				"name" : "org.ubimix.libs.httpclient"
 			},
 			{
-				"url" : "https://github.com/ubimix/org.ubimix.libs.lucene.git",
-				"name" : "org.ubimix.libs.lucene"
-			},
-			{
 				"url" : "https://github.com/ubimix/org.ubimix.libs.stringtemplate.git",
 				"name" : "org.ubimix.libs.stringtemplate"
 			},
 			{
-				"url" : "https://github.com/ubimix/org.ubimix.scraper.app.git",
-				"name" : "org.ubimix.scraper.app"
-			},
-			{
-				"url" : "https://github.com/ubimix/org.ubimix.scraper.pageset.git",
-				"name" : "org.ubimix.scraper.pageset"
-			},
-			{
-				"url" : "https://github.com/ubimix/org.ubimix.scraper.protocol.git",
-				"name" : "org.ubimix.scraper.protocol"
-			},
-			{
 				"url" : "https://github.com/ubimix/org.ubimix.scraper.resources.git",
 				"name" : "org.ubimix.scraper.resources"
-			},
-			{
-				"url" : "https://github.com/ubimix/org.ubimix.scraper.transformer.git",
-				"name" : "org.ubimix.scraper.transformer"
 			},
 			
 			

@@ -20,8 +20,11 @@
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
+            <properties>
+                <workspaceDir>../org.ubimix.projects</workspaceDir>
+            </properties>
             <modules>
-                <module>build</module>
+                <module>${workspaceDir}</module>
             </modules>
         </profile>
     </profiles>

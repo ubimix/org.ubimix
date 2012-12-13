@@ -11,6 +11,7 @@
     <properties>
         <workspaceDir>../../org.ubimix.projects</workspaceDir>
         <projectListFile>${project.basedir}/projects.json</projectListFile>
+        <pomTemplateFile>${project.basedir}/pom-template.xml</pomTemplateFile>
     </properties>
     <build>
         <plugins>
@@ -74,6 +75,7 @@
                                 File file = new File(projectListFile);
                                 JSONObject descr = readJSON(file);
                                 JSONArray array = descr.get("projects");
+                                def content = new StringBuilder();
                                 for (JSONAware value : array) {
                                     if (value instanceof JSONObject) {
                                         JSONObject gitProject = (JSONObject) value;
@@ -81,8 +83,20 @@
                                         String name = gitProject.get("name");
                                         File dir = name != null ? new File(workspaceDir, name) : null;
                                         clone(url, dir);
+                                        content.append("        <module>").append(name).append("</module>\n");
                                     }
                                 }
+                                // Create a POM file
+                                String pomTemplateFileName = project.properties.pomTemplateFile
+                                File pomTemplateFile = new File(pomTemplateFileName);
+                                String pomContent = pomTemplateFile.getText();
+                                String timestamp = "" + System.currentTimeMillis();
+                                pomContent = pomContent.replace("\$MODULES\$", content.toString()).replace("\$VERSION\$", timestamp);
+                                File pomFile = new File(workspaceDir, "pom.xml");
+                                pomFile.setText(pomContent);
+                                
+                                println "A new POM file was created in the $workspaceDir directory.";
+                                // println pomContent;
                             ]]></source>
                         </configuration>
                     </execution>
