@@ -38,7 +38,9 @@ An example of project list re-definition and the resulting workspace directory:
 
 Clean/install: 
  
-> cd ../org.ubimix.projects
+> cd ../org.ubimix.projects/org.ubimix.poms.bundle
+> mvn clean install
+> cd ../
 > mvn clean install
 
 == How to create/update Eclipse configuration? ==
@@ -46,7 +48,9 @@ Clean/install:
 1) Go to the workspace directory where all projects were checked out.
 2) Launch the maven build configuration:
 
-> cd ../org.ubimix.projects
+> cd ../org.ubimix.projects/org.ubimix.poms.bundle
+> mvn clean install
+> cd ../
 > mvn eclipse:clean eclipse:eclipse
 
 == How to import projects into Eclipse ? ==
