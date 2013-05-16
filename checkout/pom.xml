@@ -3,13 +3,13 @@
     xmlns="http://maven.apache.org/POM/4.0.0"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.jokerd.init</groupId>
-    <artifactId>org.jokerd.init.checkout</artifactId>
+    <groupId>org.ubimix.init</groupId>
+    <artifactId>org.ubimix.init.checkout</artifactId>
     <name>${project.artifactId}</name>
     <version>1.2.1</version>
     <packaging>pom</packaging>
     <properties>
-        <workspaceDir>../../org.jokerd.projects</workspaceDir>
+        <workspaceDir>../../org.ubimix.projects</workspaceDir>
         <projectListFile>${project.basedir}/projects.json</projectListFile>
         <pomTemplateFile>${project.basedir}/pom-template.xml</pomTemplateFile>
     </properties>
